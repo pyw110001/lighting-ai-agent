@@ -1,0 +1,55 @@
+import type { ProjectInput } from "@/lib/types";
+
+export const sampleProjects: ProjectInput[] = [
+  {
+    projectName: "某市政务服务中心",
+    buildingType: "政务中心",
+    projectArea: 42000,
+    projectStage: "概念方案",
+    designGoals: ["节能", "品牌形象", "智能控制", "低成本优化"],
+    budgetLevel: "中",
+    ownerConcerns: "希望首层服务大厅明亮、亲民、有秩序，同时控制后期运营能耗。",
+    painPoints: "大厅人流高峰明显，导视复杂，担心眩光和灯具维护困难。",
+    spaces: [
+      { id: "sample-gov-1", name: "一层政务服务大堂", area: 1600, height: 8.5, usageHours: "08:00-20:00", notes: "高峰排队与窗口服务" },
+      { id: "sample-gov-2", name: "办事等候区", area: 900, height: 4.2, usageHours: "08:00-20:00", notes: "长时间停留" },
+      { id: "sample-gov-3", name: "公共走廊", area: 650, height: 3.2, usageHours: "08:00-22:00", notes: "导视密集" },
+      { id: "sample-gov-4", name: "会议室", area: 180, height: 3.3, usageHours: "按需", notes: "视频会议" },
+      { id: "sample-gov-5", name: "室外主入口雨棚", area: 260, height: 6, usageHours: "夜间", notes: "城市界面" },
+    ],
+  },
+  {
+    projectName: "滨水文化艺术中心",
+    buildingType: "文化建筑",
+    projectArea: 68000,
+    projectStage: "初步设计",
+    designGoals: ["品牌形象", "夜间识别度", "绿色建筑认证", "智能控制"],
+    budgetLevel: "高",
+    ownerConcerns: "需要形成夜间城市名片，同时不能过度炫技或造成光污染。",
+    painPoints: "展厅布展变化大，报告厅活动类型多，立面灯具希望尽量隐蔽。",
+    spaces: [
+      { id: "sample-art-1", name: "艺术中心共享大堂", area: 2200, height: 12, usageHours: "09:00-22:00", notes: "大型公共活动" },
+      { id: "sample-art-2", name: "临展展厅", area: 1800, height: 6, usageHours: "10:00-21:00", notes: "可变展陈" },
+      { id: "sample-art-3", name: "报告厅", area: 1200, height: 9, usageHours: "活动时段", notes: "演讲与放映" },
+      { id: "sample-art-4", name: "建筑立面夜景", area: 3500, height: 28, usageHours: "日落-23:00", notes: "滨水界面" },
+      { id: "sample-art-5", name: "景观步道", area: 1100, height: 0, usageHours: "夜间", notes: "滨水慢行" },
+    ],
+  },
+  {
+    projectName: "总部办公楼",
+    buildingType: "办公楼",
+    projectArea: 56000,
+    projectStage: "改造诊断",
+    designGoals: ["健康照明", "WELL", "LEED", "节能", "智能控制"],
+    budgetLevel: "高",
+    ownerConcerns: "希望提升员工舒适度和企业形象，同时降低公共区和车库能耗。",
+    painPoints: "现状办公区眩光明显，会议室视频效果差，地下车库长时间全亮。",
+    spaces: [
+      { id: "sample-office-1", name: "开放办公区", area: 3200, height: 3.1, usageHours: "08:00-21:00", notes: "屏幕办公" },
+      { id: "sample-office-2", name: "高管会议室", area: 220, height: 3.5, usageHours: "按需", notes: "视频会议与展示" },
+      { id: "sample-office-3", name: "总部首层大堂", area: 1200, height: 9, usageHours: "07:00-22:00", notes: "企业接待" },
+      { id: "sample-office-4", name: "员工餐厅", area: 850, height: 4, usageHours: "07:00-20:00", notes: "三餐高峰" },
+      { id: "sample-office-5", name: "地下车库", area: 6800, height: 3.4, usageHours: "24小时", notes: "节能改造" },
+    ],
+  },
+];

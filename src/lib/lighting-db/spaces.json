@@ -1,0 +1,167 @@
+{
+  "大堂": {
+    "recommended_lux": "300-500 lx",
+    "color_temperature": "3000-4000K",
+    "cri": "Ra >= 90",
+    "glare_risk": "中",
+    "recommended_fixture": "线性洗墙灯、嵌入式筒灯、重点射灯、装饰吊灯",
+    "control_strategy": "分时段调光、日光感应、迎宾/日常/清洁/节能场景",
+    "design_notes": ["突出首层形象与导向性", "关注竖向面亮度与入口过渡", "避免高反射石材产生二次眩光"],
+    "common_risks": ["入口亮度过渡不自然", "装饰灯具维护困难", "前台与等候区照度不均"],
+    "value_upgrade_points": ["品牌迎宾灯光场景", "艺术装置照明", "低眩光高显色形象提升"]
+  },
+  "走廊": {
+    "recommended_lux": "100-200 lx",
+    "color_temperature": "3000-4000K",
+    "cri": "Ra >= 80",
+    "glare_risk": "中",
+    "recommended_fixture": "线性灯、嵌入式筒灯、墙面导向灯",
+    "control_strategy": "人体感应、分区延时、夜间低照度巡航",
+    "design_notes": ["强化导向和安全感", "优先控制眩光和节奏感", "长走廊应避免光斑断裂"],
+    "common_risks": ["点状灯具间距过大", "端部过暗", "消防与导视位置冲突"],
+    "value_upgrade_points": ["导向照明系统", "低位夜间引导", "运营节能控制"]
+  },
+  "电梯厅": {
+    "recommended_lux": "200-300 lx",
+    "color_temperature": "3000-4000K",
+    "cri": "Ra >= 80",
+    "glare_risk": "中",
+    "recommended_fixture": "嵌入式筒灯、线性灯、墙面洗墙灯",
+    "control_strategy": "楼层分组、客流感应、清洁模式",
+    "design_notes": ["保证电梯门、楼层标识和等候区可读性", "立面亮度应高于地面亮度", "避免门框反射眩光"],
+    "common_risks": ["灯具与电梯门套冲突", "导视牌照度不足", "镜面材料眩光"],
+    "value_upgrade_points": ["楼层识别灯光", "客流节能控制", "导视融合照明"]
+  },
+  "办公区": {
+    "recommended_lux": "300-500 lx",
+    "color_temperature": "3500-4000K",
+    "cri": "Ra >= 80/90",
+    "glare_risk": "高",
+    "recommended_fixture": "低眩光线性灯、格栅灯、桌面任务照明",
+    "control_strategy": "日光感应、恒照度、人员感应、会议/加班场景",
+    "design_notes": ["控制UGR并兼顾屏幕反射", "工位与公共区可分回路", "结合日照条件做靠窗调光"],
+    "common_risks": ["屏幕眩光", "过度均匀导致空间乏味", "控制分区与办公布局不匹配"],
+    "value_upgrade_points": ["健康节律照明", "工位级控制", "能耗监测"]
+  },
+  "会议室": {
+    "recommended_lux": "300-500 lx",
+    "color_temperature": "3000-4000K",
+    "cri": "Ra >= 90",
+    "glare_risk": "高",
+    "recommended_fixture": "防眩筒灯、线性灯、墙面洗墙灯、视频会议面光",
+    "control_strategy": "会议、投影、视频、清洁、离场场景",
+    "design_notes": ["重点保证人脸垂直照度", "投影墙和显示屏周边需独立控制", "避免桌面强反射"],
+    "common_risks": ["视频会议面光不足", "投影模式回路不合理", "桌面眩光"],
+    "value_upgrade_points": ["视频会议专用场景", "无线面板控制", "声光电一体化预设"]
+  },
+  "报告厅": {
+    "recommended_lux": "300-500 lx（观众区可调）",
+    "color_temperature": "3000-4000K",
+    "cri": "Ra >= 90",
+    "glare_risk": "高",
+    "recommended_fixture": "调光筒灯、台口面光、踏步灯、墙面洗墙灯",
+    "control_strategy": "演讲、放映、入场、退场、清洁、应急联动场景",
+    "design_notes": ["观众区、主席台、通道应独立回路", "控制舞台眩光和显示屏反射", "确保疏散路径可见"],
+    "common_risks": ["舞台面光不足", "显示屏反光", "疏散通道亮度不连续"],
+    "value_upgrade_points": ["演讲灯光场景", "多媒体联动", "活动运营模式"]
+  },
+  "展厅": {
+    "recommended_lux": "150-300 lx（展品按保护要求调整）",
+    "color_temperature": "3000-4000K",
+    "cri": "Ra >= 90/95",
+    "glare_risk": "高",
+    "recommended_fixture": "轨道射灯、洗墙灯、可调角度重点灯",
+    "control_strategy": "展陈分组、场景调光、时段控制、展品保护模式",
+    "design_notes": ["以垂直面和展品重点照明为主", "避免观众视线方向眩光", "敏感展品需控制照度和紫外红外"],
+    "common_risks": ["展品眩光", "照度过高影响保护", "布展变更导致灯位失效"],
+    "value_upgrade_points": ["可变展陈灯光系统", "高显色展品呈现", "主题展览场景"]
+  },
+  "图书阅览区": {
+    "recommended_lux": "300-500 lx",
+    "color_temperature": "3500-4000K",
+    "cri": "Ra >= 80/90",
+    "glare_risk": "高",
+    "recommended_fixture": "低眩光线性灯、书架灯、桌面阅读灯",
+    "control_strategy": "日光感应、阅览/闭馆/清洁场景、分区调光",
+    "design_notes": ["阅读面均匀性和眩光控制优先", "书架垂直照度需单独关注", "靠窗区域宜恒照度控制"],
+    "common_risks": ["桌面反射眩光", "书架阴影", "长时间阅读疲劳"],
+    "value_upgrade_points": ["阅览舒适度优化", "书架识别照明", "学习氛围场景"]
+  },
+  "餐厅": {
+    "recommended_lux": "150-300 lx",
+    "color_temperature": "2700-3500K",
+    "cri": "Ra >= 90",
+    "glare_risk": "中",
+    "recommended_fixture": "防眩筒灯、吊灯、线性灯、重点射灯",
+    "control_strategy": "早餐/午餐/晚餐/清洁/节能场景",
+    "design_notes": ["强化餐桌面和食品显色", "控制用餐区舒适氛围", "后厨与备餐区需更高照度"],
+    "common_risks": ["餐桌照度不均", "色温过冷影响氛围", "吊灯维护不便"],
+    "value_upgrade_points": ["时段化用餐场景", "品牌餐饮氛围", "高显色食品呈现"]
+  },
+  "地下车库": {
+    "recommended_lux": "50-100 lx（坡道和出入口提高）",
+    "color_temperature": "4000-5000K",
+    "cri": "Ra >= 70/80",
+    "glare_risk": "中",
+    "recommended_fixture": "防潮线性灯、车道灯、坡道加强灯",
+    "control_strategy": "车流感应、分区调光、24小时巡航、应急联动",
+    "design_notes": ["坡道、出入口和人行通道需加强", "保证摄像头识别和安全感", "优先考虑维护和防护等级"],
+    "common_risks": ["坡道明暗适应差", "灯具防护等级不足", "感应分区过大"],
+    "value_upgrade_points": ["车流感应节能", "安全识别照明", "运维低成本灯具策略"]
+  },
+  "卫生间": {
+    "recommended_lux": "150-300 lx",
+    "color_temperature": "3000-4000K",
+    "cri": "Ra >= 80",
+    "glare_risk": "中",
+    "recommended_fixture": "防潮筒灯、镜前灯、线性灯",
+    "control_strategy": "人体感应、分区延时、清洁模式",
+    "design_notes": ["镜前照明避免阴影", "湿区注意防护等级", "清洁维护便利性优先"],
+    "common_risks": ["镜前人脸阴影", "灯具防护等级不足", "感应误触发"],
+    "value_upgrade_points": ["镜前舒适照明", "节能感应控制", "精细化维护策略"]
+  },
+  "设备机房": {
+    "recommended_lux": "200-300 lx",
+    "color_temperature": "4000K",
+    "cri": "Ra >= 80",
+    "glare_risk": "低",
+    "recommended_fixture": "防护型线性灯、应急照明",
+    "control_strategy": "手动分区、检修模式、应急联动",
+    "design_notes": ["以检修安全和设备识别为主", "灯位避开管线和检修口", "保证应急照明覆盖"],
+    "common_risks": ["灯具与管线冲突", "检修面照度不足", "维护空间受限"],
+    "value_upgrade_points": ["检修模式", "安全巡检照明", "设备标识识别"]
+  },
+  "室外入口": {
+    "recommended_lux": "100-300 lx",
+    "color_temperature": "3000-4000K",
+    "cri": "Ra >= 80",
+    "glare_risk": "高",
+    "recommended_fixture": "雨棚筒灯、线性洗墙灯、地埋/投光灯、导向灯",
+    "control_strategy": "日落启停、深夜节能、迎宾、节假日场景",
+    "design_notes": ["入口应形成清晰识别度", "避免对道路和邻近建筑眩光", "灯具需满足户外防护和维护"],
+    "common_risks": ["入口识别不足", "投光眩光", "防水防腐不足"],
+    "value_upgrade_points": ["夜间识别形象", "迎宾场景", "导向与安防联动"]
+  },
+  "景观步道": {
+    "recommended_lux": "10-30 lx",
+    "color_temperature": "2700-3500K",
+    "cri": "Ra >= 80",
+    "glare_risk": "中",
+    "recommended_fixture": "低位庭院灯、草坪灯、扶手灯、埋地导向灯",
+    "control_strategy": "天文钟、深夜降照、分区巡航、节假日场景",
+    "design_notes": ["以安全导向和舒适氛围为主", "控制上射光和光溢散", "避免灯具成为视觉障碍"],
+    "common_risks": ["灯具眩光直射人眼", "光污染", "维护与防水问题"],
+    "value_upgrade_points": ["低位导向系统", "夜游路线场景", "生态友好照明"]
+  },
+  "建筑立面": {
+    "recommended_lux": "按城市夜景管控与立面材料确定",
+    "color_temperature": "2700-4000K",
+    "cri": "Ra >= 80",
+    "glare_risk": "高",
+    "recommended_fixture": "线性洗墙灯、窄光束投光灯、轮廓灯、媒体立面设备",
+    "control_strategy": "平日、节假日、深夜节能、关闭模式、城市管控联动",
+    "design_notes": ["尊重建筑形体和材料肌理", "控制亮度等级和周边扰民", "避免过度动态化"],
+    "common_risks": ["夜景过亮", "光污染投诉", "灯具外露影响日景"],
+    "value_upgrade_points": ["城市形象识别", "节庆模式", "低碳夜景策略"]
+  }
+}
